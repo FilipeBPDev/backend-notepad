@@ -1,0 +1,26 @@
+POST http://localhost:7007/notes
+Content-Type: application/json
+
+{
+  "title": "nota para 27/11",
+  "description": "aniversário caasamento "
+}
+
+###
+GET http://localhost:7007/notes
+
+
+###
+GET http://localhost:7007/notes/03117e1a-fc63-4e3c-b8ce-2d1f2eaf3761
+###
+
+PUT http://localhost:7007/notes/fa95492d-8f24-4eff-8080-faefa9e67e21
+Content-Type: application/json
+
+{
+  "title": "teste222",
+  "description": "fffffffffffaaaaaaaaa "
+}
+
+###
+DELETE http://localhost:7007/notes/6fe1850d-d8a0-45f3-960f-5cd45a17fce5
