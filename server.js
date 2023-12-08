@@ -75,7 +75,7 @@ app.get('/notes/:id', (req, res) => {
 
 })
 
-app.put('/notes/:id', (req, res) => {
+app.patch('/notes/:id', (req, res) => {
     const { id } = req.params
     const { title, description } = req.body
     if (!title || !description) {
